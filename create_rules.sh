@@ -6,7 +6,7 @@
 # used as part of the android_rom_build_system_init project
 
 echo
-echo "creating 51-android.rules in /etc/udev/51-android.rules ..."
+echo "creating 51-android.rules in /etc/udev/rules.d ..."
 echo
 
 myrules="./51-android.rules"
@@ -26,6 +26,6 @@ else
 fi
 
 echo
-echo "Done creating 51-android.rules in /etc/udev/51-android.rules ..."
+echo "Done creating 51-android.rules in /etc/udev/rules.d ..."
 echo
 
