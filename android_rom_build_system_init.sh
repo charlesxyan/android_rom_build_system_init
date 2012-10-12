@@ -8,16 +8,37 @@
 
 
 # install the git packages
-sudo apt-get -y install git-core 
+sudo apt-get -y -qq install git-core 
 
 # install the java packages
-sudo apt-get -y install openjdk-6-jdk 
+sudo apt-get -y -qq install openjdk-6-jdk 
 
 # install the other tools packages
-sudo apt-get -y install gnupg flex bison gperf build-essential zip curl tofrodos python-markdown pngcrush schedtool xsltproc libxml2-utils
+sudo apt-get -y -qq install gnupg
+sudo apt-get -y -qq install flex
+sudo apt-get -y -qq install bison
+sudo apt-get -y -qq install gperf
+sudo apt-get -y -qq install zip
+sudo apt-get -y -qq install curl
+sudo apt-get -y -qq install tofrodos
+sudo apt-get -y -qq install python-markdown
+sudo apt-get -y -qq install pngcrush
+sudo apt-get -y -qq install build-essential
+sudo apt-get -y -qq install schedtool
+sudo apt-get -y -qq install xsltproc
+sudo apt-get -y -qq install libxml2-utils
 
 # install the other libs packages
-sudo apt-get -y install libc6-dev libncurses5-dev:i386 x11proto-core-dev libx11-dev:i386 libreadline6-dev:i386 libgl1-mesa-glx:i386 libgl1-mesa-dev g++-multilib mingw32 zlib1g-dev:i386
+sudo apt-get -y -qq install libc6-dev
+sudo apt-get -y -qq install libncurses5-dev:i386
+sudo apt-get -y -qq install x11proto-core-dev
+sudo apt-get -y -qq install libx11-dev:i386
+sudo apt-get -y -qq install libreadline6-dev:i386
+sudo apt-get -y -qq install libgl1-mesa-glx:i386
+sudo apt-get -y -qq install libgl1-mesa-dev
+sudo apt-get -y -qq install zlib1g-dev:i386
+sudo apt-get -y -qq install g++-multilib
+sudo apt-get -y -qq install mingw32
 
 #should not be needed on ubuntu 12.04 LTS
 #sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/libGL.so
