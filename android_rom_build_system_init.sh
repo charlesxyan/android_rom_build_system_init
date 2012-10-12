@@ -14,10 +14,10 @@ sudo apt-get -y install git-core
 sudo apt-get -y install openjdk-6-jdk 
 
 # install the other tools packages
-sudo apt-get -y install gnupg flex bison gperf build-essential zip curl tofrodos python-markdown
+sudo apt-get -y install gnupg flex bison gperf build-essential zip curl tofrodos python-markdown pngcrush schedtool xsltproc libxml2-utils
 
 # install the other libs packages
-sudo apt-get -y install libc6-dev libncurses5-dev:i386 x11proto-core-dev libx11-dev:i386 libreadline6-dev:i386 libgl1-mesa-glx:i386 libgl1-mesa-dev g++-multilib mingw32 libxml2-utils xsltproc zlib1g-dev:i386
+sudo apt-get -y install libc6-dev libncurses5-dev:i386 x11proto-core-dev libx11-dev:i386 libreadline6-dev:i386 libgl1-mesa-glx:i386 libgl1-mesa-dev g++-multilib mingw32 zlib1g-dev:i386
 
 #should not be needed on ubuntu 12.04 LTS
 #sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/libGL.so
